@@ -1,5 +1,7 @@
 # modulacms-sdk
 
+[![CI](https://github.com/hegner123/modulacms-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/hegner123/modulacms-sdk/actions/workflows/ci.yml)
+
 TypeScript SDK for the ModulaCMS content delivery API. Provides typed, read-only access to content trees, routes, media, and schema definitions.
 
 - Universal: works in browsers and Node.js 18+
