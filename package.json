@@ -28,11 +28,14 @@
   "scripts": {
     "build": "tsup && npm pack",
     "dev": "tsup --watch",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "devDependencies": {
+    "tsup": "^8.4.0",
     "typescript": "^5.7.0",
-    "tsup": "^8.4.0"
+    "vitest": "^4.0.18"
   },
   "license": "MIT"
 }
